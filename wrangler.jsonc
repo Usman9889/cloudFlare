@@ -9,7 +9,14 @@
   "compatibility_date": "2025-02-14",
   "observability": {
     "enabled": true
-  }
+
+  },
+  "vars": { 
+    "DATABASE_URL":"prisma://accelerate.prisma-data.net/?api_key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcGlfa2V5IjoiYTk1ZmFhZTMtZjUwMC00NDYwLWIyMGUtNTFhM2VlNzMxYTYwIiwidGVuYW50X2lkIjoiMDI2M2U4MmYxY2NiYjUxZTZmMzU5ZTVjMDI0ZDZiODgyOTJmOTkyZTgzMmQwZjRjOWI5NTM3ZjdiYmNjY2NkZiIsImludGVybmFsX3NlY3JldCI6IjRlMjk0N2RkLTI1ZTAtNGQ1NS05NGMzLWU1ZDM0ZWRhZWNiZiJ9.DuuGf80NzByHrTXr6SZy5udf9-c0io4hQ9v_zV0d88s"
+
+   }
+ 
+
   /**
    * Smart Placement
    * Docs: https://developers.cloudflare.com/workers/configuration/smart-placement/#smart-placement
@@ -45,3 +52,4 @@
    */
   // "services": [{ "binding": "MY_SERVICE", "service": "my-service" }]
 }
+

@@ -15,9 +15,10 @@
 		"prisma": "^6.3.1",
 		"typescript": "^5.5.2",
 		"vitest": "~2.1.9",
-		"wrangler": "^3.109.1"
+		"wrangler": "^3.109.2"
 	},
 	"dependencies": {
-		"@prisma/client": "^6.3.1"
+		"@prisma/client": "^6.4.0",
+		"@prisma/extension-accelerate": "^1.2.2"
 	}
 }
